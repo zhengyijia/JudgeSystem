@@ -340,6 +340,16 @@ namespace SocketServer
                     }
                 }
 
+                if (File.Exists(current_thread_id + ".c"))
+                {
+                    File.Delete(current_thread_id + ".c");
+                }
+
+                if (File.Exists(current_thread_id + ".exe"))
+                {
+                    File.Delete(current_thread_id + ".exe");
+                }
+
                 return result;
             }
         }
