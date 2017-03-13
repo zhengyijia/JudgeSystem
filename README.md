@@ -13,3 +13,6 @@
 * 客户端接收服务器端返回的结果，并显示在界面上
 * 传输过程使用类似PPP协议的字符填充法，实现透明传输及字符串正确分割
 * 子线程通过Dispatcher机制通知主线程更新UI
+
+## 应用界面
+<img src="screenshots/screenshot.png" width="500" height="378" alt="客户端界面" />
